@@ -129,5 +129,6 @@ def main():
                 subset=["Status"]
             ))
 
-if __name__== "__main__":
-    main()
+if __name__ == "__main__":
+    import os
+    os.system("streamlit run app.py --server.address=0.0.0.0 --server.port=5000")
