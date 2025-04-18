@@ -306,3 +306,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+os.system("streamlit run app.py --server.port=8500 --server.address=0.0.0.0")
